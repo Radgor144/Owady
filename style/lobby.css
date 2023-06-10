@@ -1,0 +1,279 @@
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(
+  135deg,
+  hsl(194deg 50% 79%) 1%,
+  hsl(194deg 76% 75%) 50%,
+  hsl(194deg 100% 72%) 99%
+  );
+}
+
+h1{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    text-transform: capitalize;
+}
+
+h2{
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    color: #00c197;
+    text-shadow: 2px 2px 2px black;
+    text-transform: capitalize;
+    letter-spacing: .4rem;
+    padding: 2rem 1rem;
+}
+
+.carousel{
+    margin-right: 0;
+}
+
+.lacina p{
+  color: #000000;
+}
+
+
+#section-one{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    padding: 0 3rem;
+}
+
+.landing{
+    position: relative;
+    z-index: 10;
+  
+  }
+
+  .gatunek{
+    margin: 3rem;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 90%;
+    border-radius: 30px;
+  }
+
+  .wrapper {
+    max-width: 1100px;
+    width: 90%;
+    position: relative;
+  }
+  
+  .wrapper .arrows {
+    color: black;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgb(0, 0, 0);
+    transform: translateY(-50%);
+  }
+
+.arrows img{
+  max-width: 10%;
+}
+
+.wrapper .arrows:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper .arrows:first-child{
+  left: -22px;
+}
+.wrapper .arrows:last-child{
+  right: -22px;
+}
+
+  .wrapper .carousel{
+    display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1.5%;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  }
+
+  .carousel .card {
+    height: 420px;
+    background: #ffffff;
+    padding-bottom: 15px;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+  }
+
+  
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+
+.img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.img img{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.naglowek{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.podpis{
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.podpis h2{
+    font-size: 3rem;
+}
+
+.podpis p{
+    font-size: 2rem;
+    margin-bottom: auto;
+    color: white;
+}
+
+.podpis a:hover{
+  text-decoration: none;
+}
+
+@media screen and (min-width: 0px) {
+
+  h1{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 1.8rem;
+  }
+
+.podpis h2{
+  font-size: 2rem;
+}
+
+.podpis p{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+}
+
+@media screen and (min-width: 400px) {
+
+  h1{
+    font-size: 4rem;
+  }
+
+  .gatunek h2{
+    font-size: 4rem;
+  }
+
+  .naglowek h2{
+    font-size: 3rem;
+  }
+
+  .podpis p{
+      font-size: 2.5rem;
+      margin-top: 1rem;
+  }
+
+  p{
+    font-size: 2rem;
+}
+
+}
+
+@media screen and (min-width: 600px) {
+
+  h1{
+    font-size: 4rem;
+  }
+
+  .gatunek h2{
+    font-size: 4rem;
+  }
+
+  .naglowek h2{
+    font-size: 2rem;
+  }
+
+  .podpis p{
+      font-size: 1.8rem;
+      margin-top: 1rem;
+  }
+
+  p{
+    font-size: 2rem;
+}
+
+}
+
+@media screen and (min-width: 900px) {
+
+
+
+  .naglowek h2{
+    font-size: 3rem;
+  }
+
+  .podpis p{
+      font-size: 2.5rem;
+      margin-top: 1rem;
+  }
+
+  p{
+    font-size: 2rem;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+    .wrapper .carousel {
+      grid-auto-columns: calc((100% / 2) - 9px);
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .wrapper .carousel {
+      grid-auto-columns: 100%;
+    }
+}
+  
+
+ 
+
+  
+  
