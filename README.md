@@ -16,13 +16,15 @@ Przyklady zbioru:
 
 <br>
 
-Pytania:
+## Pytania:
 ![pytania_tablet](https://github.com/Radgor144/Owady/assets/106109773/d2dc8f6d-8be2-4180-87e4-3b2942e48765)
 
 <br>
 
-Pokaz:
-https://github.com/Radgor144/Owady/assets/106109773/7418b2f9-3c0f-48ab-b008-3d01e4eece29
+## Pokaz:
+
+
+https://github.com/Radgor144/Owady/assets/106109773/4f40fe62-8fc5-4284-9aaf-780c8700f8dd
 
 <br>
 
