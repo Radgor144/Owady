@@ -1,5 +1,5 @@
 # Owady
-Link do strony: https://ux.up.krakow.pl/~radoslaw.goralik/Projekt/Do%20oddania/
+Link do strony: https://ux.up.krakow.pl/~radoslaw.goralik/Ten%20projekt/Do%20oddania/index.php
 
 ## Główna
 ![glowna](https://github.com/Radgor144/Owady/assets/106109773/85baaa5b-b647-481e-a6a4-e2c0177e7342)
